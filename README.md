@@ -1,13 +1,15 @@
 # Credit-scoring
 
-## Кредитный скоринг является важной банковской задачей.
-## Стандартный подход заключается в построении классических моделей машинного обучения, таких как логистическая регрессия и градиентный бустинг на табличных данных, в том числе с использованием агрегирования из некоторых последовательных данных, таких как истории транзакций клиентов.
+Кредитный скоринг является важной банковской задачей. Стандартный подход заключается в построении классических моделей машинного обучения, таких как логистическая регрессия и градиентный бустинг на табличных данных, в том числе с использованием агрегирования из некоторых последовательных данных, таких как истории транзакций клиентов.
 
 ## Описание полей табличных данных:
 Описание полей:
 id - identifier of the application
+
 flag - target (целевая переменная)
+
 pre_since_opened - days from credit opening date to data collection date
+
 pre_since_confirmed - days from credit information confirmation date till data collection date
 pre_pterm - planned number of days from credit opening date to closing date
 pre_fterm - actual number of days from credit opening date to closing date
